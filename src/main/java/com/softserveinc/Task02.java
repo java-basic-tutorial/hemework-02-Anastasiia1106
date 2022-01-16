@@ -33,6 +33,22 @@ public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO: Write your code here
+        System.out.print("t1 >>> ");
+        double t1 = scanner.nextDouble();
+        System.out.print("t2 >>> ");
+        double t2 = scanner.nextDouble();
+        System.out.print("dt >>> ");
+        double dt = scanner.nextDouble();
+        System.out.println("-----------------\n" +
+                "    C       F\n" +
+                "-----------------");
+        double t3 = ((9*t1/5 + 32));
+        System.out.println(t3);
+        double t4 = ((9*t2/5 + 32));
+        System.out.println(t4);
+        double t5 = ((9*dt/5 + 32));
+        System.out.println(t5);
+
 
     }
 }

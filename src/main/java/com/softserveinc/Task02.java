@@ -42,12 +42,16 @@ public class Task02 {
         System.out.println("-----------------\n" +
                 "    C       F\n" +
                 "-----------------");
-        double t3 = ((9*t1/5 + 32));
-        System.out.println(t3);
-        double t4 = ((9*t2/5 + 32));
-        System.out.println(t4);
-        double t5 = ((9*dt/5 + 32));
-        System.out.println(t5);
+//        double t3 = ((9*t1/5 + 32));
+//        System.out.println(t3);
+//        double t4 = ((9*t2/5 + 32));
+//        System.out.println(t4);
+//        double t5 = ((9*dt/5 + 32));
+//        System.out.println(t5);
+            System.out.printf(Locale.ENGLISH,"%2.2f    %2.2f\n", t1, (9*t1/5 + 32));
+            System.out.printf(Locale.ENGLISH,"%2.2f    %2.2f\n", t2, (9*t2/5 + 32));
+            System.out.printf(Locale.ENGLISH,"%2.2f    %2.2f\n", dt, (9*dt/5 + 32));
+        System.out.println("-----------------");
 
 
     }

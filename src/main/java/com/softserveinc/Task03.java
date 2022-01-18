@@ -28,8 +28,11 @@ public class Task03 {
             System.out.println(">>> ");
             int num = scanner.nextInt();
             if(num == 0) break;
-            min = Math.min(min, num);
-        } while (true);
+//            min = Math.min(min, num);
+            if (num < min) {
+                min = num;
+            }
+                  } while (true);
         System.out.println("Minimum number is " + min);
 
     }
